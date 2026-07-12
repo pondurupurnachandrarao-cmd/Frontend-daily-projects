@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e4a7a7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-card {
+            text-align: center;
+            background-color: #fff;
+            max-width: 350px;
+            height: 450px;
+            padding: 20px;
+            border: 3px solid #777474;
+            border-radius: 20px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-picture {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .bio {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 20%;
+            margin-bottom: 15px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 15px ;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #394de5;
+        }
+        .social-links a {
+            text-decoration: none;
+            color: #4904f9;
+            margin:10px 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <img class="profile-picture" src="https://th.bing.com/th/id/OIP.IN7O2TcCRnupcW2fPo3KDwHaHa?w=208&h=208&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Profile Picture">
+        <h1 class="name">PURNACHANDRARAO PONDURU</h1>
+        <p class="title">Frontend Developer</p>
+        <p class="bio">Passionate about coding and technology. Always eager to learn new things and take on challenges.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a> |
+            <a href="https://twitter.com/pondurupurnachandrarao" target="_blank">Twitter</a> |
+            <a href="https://github.com/pondurupurnachandrarao-cmd" target="_blank">GitHub</a>
+        </div>
+        <div class="contact-info">
+            <button>Contact Me</button>
+            <button>View Resume</button>
+        </div>
+    </div>
+</body>
+</html>
