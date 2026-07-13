@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <script src="https://kit.fontawesome.com/ebdd1363cb.js" crossorigin="anonymous"></script>
+    <title>Digital Visiting Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0b0b0b;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .profile-card {
+            text-align: center;
+            background-color: #fff;
+            max-width: 400px;
+            height:auto;
+            padding: 20px;
+            border: 3px solid #f608c2;
+            border-radius: 20px;
+            box-shadow: 0px 2px 54px rgb(45, 5, 179);
+        }
+
+        .profile-picture {
+            width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .name {
+            font-size: 15px;
+            margin-bottom: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #666;
+            margin-bottom:5px;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            border: 3px solid #090251;
+        }
+        .social-links button {
+            background-color: #0ff7a9;
+            color: #090909;
+            border: none;
+            padding: 10px 15px;
+            margin: 0px 20px;
+            border-radius:25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn {
+            background-color: #090251;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-card">
+        <h1>Oasis Infobyte</h1>
+                <img class="profile-picture" src="pro-img.jpeg" alt="Profile Picture">
+        <h4 class="name">PURNACHANDRARAO PONDURU</h4>
+        <p class="title">Software Engineer</p>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:purnachandrarao.ponduru@infosys.com">purnachandrarao.ponduru@infosys.com</a></p>
+            <p>Phone: +91 1234567890</p>
+        </div>
+        <div class="social-links">
+            <button><i class="fa-brands fa-square-twitter"></i></button>
+            <button><i class="fa-brands fa-square-github"></i></button>
+            <button><i class="fa-brands fa-square-facebook"></i></button>
+        </div>
+        <p>Website: <a href="https://www.infosys.com" target="_blank">www.infosys.com</a></p>
+        <p><address>123 Main Street, Hyderabad, Telangana</address></p>
+        <button class="btn">Download vCard</button>
+
+    </div>
+</body>
+</html>
