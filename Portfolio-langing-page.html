@@ -6,79 +6,116 @@
     <title>Portfolio landing page</title>
              <script src="https://kit.fontawesome.com/ebdd1363cb.js" crossorigin="anonymous"></script>
 <style>
-    *{
+    body{
         margin: 0;
         padding: 0;
-        box-sizing: border-box;
-    }
-    body{
-        font-family: Arial, sans-serif;
-        background-color: #e4a7a7;
-        overflow: hidden;
-    }
-    section{
         width: 100%;
         height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+        background-color:#FFF6DE;
     }
-    .main{
-        width: 90%;
-        height: 90%;
-        display: flex;
-        flex-direction: column;
-    }
+  
     .navbar{
-        width: 100%;
-        height: 10%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #000;
+        background-color:black;
+        padding:10px;
+        border-radius: 20px;
     }
     .logo img{
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
+        width: 60px;
+        height: 60px;
+        border-radius:50%;
+        margin-left: 20px;
     }
     .navlink{
         display: flex;
         list-style: none;
     }
     .navlink li{
-        margin: 0 10px;
+        margin: 0 25px;
+        font-size: 14px;
     }
     .navlink li a{
         text-decoration: none;
-        color: #000;
+        color:white;
         font-size: 18px;
     }
     .navlink li a.active{
-        color: #e4a7a7;
+        color:rgb(253, 145, 3);
     }
     .hire-btn button{
-        padding: 10px 20px;
-        background-color: #e4a7a7;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
+        padding: 15px 20px;
+        background-color:white;
+        color:blue;
+        border:2px solid black;
+        border-radius: 30px;
         cursor: pointer;
+        font-size: 18px;
+        margin-right:20px;
     }
+    .second{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px;
+        background-color: black;
+        color: white;
+        margin-top: 10px;
+        border-radius: 20px;
+    }
+    .s1{
+        width: 50%;
+    }
+    .btn-grp button{
+        padding: 15px 20px;
+        background-color:blue;
+        color:white;
+        border:none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 18px;
+        margin-right:20px;
+    }
+    .icons{
+        margin: 30px 0px;
+        font-size: 30px;
+    }
+    .icons i{
+        background-color:white;
+        margin-right: 20px;
+        cursor: pointer;
+        padding: 10px;
+        border-radius: 50%;
+        border: 2px solid rgb(85, 3, 251);
+        color:black;
+    }
+    .s2{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .s2 img{
+        width: 450px;;
+        height: 450px;
+        border-radius:45%;
+    }
+    
 
 
 
 </style>
 </head>
 <body>
-    <section >
-            <div class="main">
-                <div class="navbar">
-                    <div class="logo">
-                        <img src="pro-img.jpeg" alt="logo">
-                    </div>
-                        <ul class="navlink">
+    
+    <div class="navbar">
+        <div class="logo">
+            <img src="pro-img.jpeg" alt="logo">
+                </div>
+                    <ul class="navlink">
                             <li><a href="Portfolio-langing-page.html" class="active">Home</a></li>
                             <li><a href="Digital-visiting-card.html">About</a></li>
                             <li><a href="E-Commerce.html">Skills</a></li>
@@ -86,15 +123,54 @@
                             <li><a href="Portfolio-langing-page.html">Services</a></li>
                             <li><a href="Portfolio-langing-page.html">Resume</a></li>
                             <li><a href="Contact.html">Contact</a></li>
-                        </ul>
-                            <div class="hire-btn">
-                                <button>Hire Me</button>
+                    </ul>
+                    <div class="hire-btn">
+                        <button>Hire Me</button>
 
-                            </div>
-                </div>
+                    </div>
+    </div>
+
+    <div class="second">
+        <div class="s1">
+            <h4>Hello,I'm</h4>
+            <h1>PURNACHANDRARAO PONDURU</h1>
+            <h3>Full Stack Developer</h3>
+            <p>I am a passionate full stack developer with experience in building web applications using modern technologies.</p>
+            <div class="btn-grp">
+                <button>View My Work</button>
+                <button>Contact me...</button>
             </div>
+            <div class="icons">
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </div>
+        <div class="s2">
+            <img src="pro-img.jpeg" alt="profile-pic">
+        </div>
+    </div>
 
-    </section>
+    <div class="third">
+        <h3>About Me</h3>
+        <h2>Who I Am</h2>
+        <p>I am a dedicated and enthusiastic full stack developer with a strong passion for creating innovative web
+             applications. With experience in both front-end and back-end development, I have a solid understanding
+              of various programming languages and frameworks. I thrive in collaborative environments and enjoy tackling
+               complex problems to deliver high-quality solutions. My goal is to continuously learn and grow as a developer
+                while contributing to impactful projects.
+        </p>        
+        <div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        
+    </div>
+
+
+
     
 </body>
 </html>
